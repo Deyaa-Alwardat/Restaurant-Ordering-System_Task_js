@@ -135,7 +135,7 @@ function checkEvenOdd() {
 }
 checkEvenOdd();
 
-//Q3 — Insert Dashes
+// Q3 — Insert Dashes
 function insertDashes(number) {
 
     let result = "";
@@ -147,13 +147,15 @@ function insertDashes(number) {
         if (number[i] % 2 === 0 && number[i + 1] % 2 === 0) {
             result = result + "-";
         }
-
     }
 
     console.log(result);
 }
+
 let number = prompt("Enter a number:");
 insertDashes(number);
+
+
 //Q4 — Age Checker
 function Agechecker(age) {
 
@@ -164,5 +166,4 @@ function Agechecker(age) {
     }
 
 }
-
 Agechecker(20);
