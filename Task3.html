@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Ordering System</title>
+    <link rel="stylesheet"  href="Task3.css">
+</head>
+
+<body>
+
+    <h1>Restaurant Ordering System</h1>
+
+    <label>Customer Name:</label>
+    <input type="text" id="customerName" placeholder="Enter your name"><br><br>
+    <label>Choose Your Order:</label>
+         <select id="order">
+            <option>Burger</option>
+            <option>Shawarma</option>
+            <option>Zinger</option>
+         </select>
+         <br><br>
+         <button id="submitBtn" class="submit-button"
+          onclick="displayOrder()"
+           onmouseover="changeButtonColor()"
+           onmouseout="resetButtonColor()">
+           Submit </button>
+         <h2 id="result"></h2>
+         <hr>
+
+         <h1>Text Formatter</h1>
+          <div class="controls-container"> 
+            <select id="fontFamily">
+                 <option value="Arial">Arial</option> 
+                 <option value="Fantasy">Fantasy</option>
+                  <option value="Times New Roman"> Times New Roman </option> 
+                </select> <select id="fontSize"> 
+                <option value="12px">12px</option> 
+                <option value="15px">15px</option>
+                 <option value="18px">18px</option> 
+                 <option value="20px">20px</option> 
+                </select>
+                 <label> <input type="checkbox" id="italic"> Italic </label>
+                  <label> <input type="checkbox" id="bold"> Bold </label>
+                   <label> <input type="checkbox" id="underline"> Underline </label> 
+                </div> <div id="text-box"> the quick brown fox over the lazy dog </div>
+                <hr>
+                 <div class="container">
+
+        <h1 id="main-title">
+            Change Image Shape
+        </h1>
+
+        <img
+            id="target-image"
+            src="aesthetic-on-a-beach-in-thumbnail-52566.jpg"
+            alt="Sunset"
+        >
+
+        <br>
+
+        <button class="shape-btn" id="btn-circle">
+            Make Circle
+        </button>
+
+        <button class="shape-btn" id="btn-square">
+            Make Square
+        </button>
+
+    </div>
+
+
+
+
+  <script src="Task3.js"></script>
+</body>
+</html>

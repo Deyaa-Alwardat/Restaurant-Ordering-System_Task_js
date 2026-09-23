@@ -154,7 +154,7 @@ function insertDashes(number) {
 
 let number = prompt("Enter a number:");
 insertDashes(number);
-
+ 
 
 //Q4 — Age Checker
 function Agechecker(age) {
