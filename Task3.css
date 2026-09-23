@@ -1,46 +1,52 @@
 
-  body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f5f5f5;
-        padding: 50px;
-      
-    }
+  /* General Page*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px;
+}
 
-    input,
-    select,
-    button {
-        padding: 10px;
-        margin: 5px;
-        font-size: 16px;
-    }
+/* Restaurant Ordering System */
+input,
+select,
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
 
-    button {
-        background-color: #333;
-        color: white;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-    #result {
-        color: #333;
-        margin-top: 20px;
-    }
-   .controls-container {
-     margin-bottom: 10px;
-     } 
+#result {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Text Formatter*/
+.controls-container {
+    margin-bottom: 10px;
+}
+
 #text-box {
     width: 400px;
     height: 150px;
     border: 2px solid black;
-    padding: 10px; 
+    padding: 10px;
     box-sizing: border-box;
     transition: background-color 0.3s;
     text-align: center;
-    margin-left: 500px;
-        
-        }
+    margin: 0 auto;
+}
+
+
+/*Change Image Shape */
 .container {
     text-align: center;
 }
@@ -59,7 +65,7 @@ h1 {
 }
 
 .shape-btn {
-    color:black;
+    color: black;
     padding: 10px 20px;
     font-size: 16px;
     margin: 0 5px;
