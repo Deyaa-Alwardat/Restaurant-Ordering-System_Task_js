@@ -57,17 +57,14 @@ showMenu();
 
 
 // 3. Ask the customer for food name
-
 let foodName = prompt("Enter food name:");
 
 
 // 4. Store the selected food
-
 let selectedFood;
 
 
 // 5. Keep asking until we find an available food
-
 while (!selectedFood) {
 
     for (let i = 0; i < menu.length; i++) {
@@ -136,6 +133,7 @@ function checkEvenOdd() {
 checkEvenOdd();
 
 // Q3 — Insert Dashes
+
 function insertDashes(number) {
 
     let result = "";
