@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    width: 250px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#addButton {
+    padding: 12px 20px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: #45a049;
+}
+
+#listTask {
+    width: 400px;
+    margin: 30px auto;
+}
+
+#listTask p {
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: left;
+}
+
+#listTask button {
+    float: right;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#listTask button:hover {
+    background-color: #c0392b;
+}
