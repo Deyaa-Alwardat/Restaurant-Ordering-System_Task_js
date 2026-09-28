@@ -38,7 +38,6 @@ addButton.onclick = function() {
 function deleteTask(index) {
 
     arr.splice(index, 1);
-
     localStorage.setItem("task", JSON.stringify(arr));
 
     showTasks();

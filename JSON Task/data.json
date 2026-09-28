@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Burger",
+        "price": 3.5,
+        "availability": true
+    },
+    {
+        "name": "Pizza",
+        "price": 4,
+        "availability": true
+    },
+    {
+        "name": "Pasta",
+        "price": 3,
+        "availability": false
+    },
+    {
+        "name": "Chicken Meal",
+        "price": 5,
+        "availability": true
+    },
+    {
+        "name": "Salad",
+        "price": 2.5,
+        "availability": true
+    }
+]
